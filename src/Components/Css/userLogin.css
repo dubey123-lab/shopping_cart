@@ -1,0 +1,51 @@
+.div1 {
+  display: flex;
+  justify-content: center;
+  padding: 186px 190px 36px 99px;
+  position: relative;
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+  background-color: mintcream;
+  height: auto;
+  width: 42%;
+  padding: 10px;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div label,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  /* padding: 10px; */
+
+  text-align: center;
+  padding: 5px;
+  border-radius: 27px;
+  outline: none;
+  width: 227px;
+}
+
+.btn-submit {
+  background-color: #008cba;
+  font-size: 14px;
+  border-radius: 9px;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background-color: grey;
+  color: white;
+}
+.display-div {
+  position: absolute;
+  background-color: violet;
+  width: 100%;
+  height: auto;
+}

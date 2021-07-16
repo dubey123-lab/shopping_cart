@@ -1,0 +1,40 @@
+.cart-img img {
+  height: 300px;
+  margin-top: 60px;
+}
+
+.cart_detail {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.qty-div {
+  display: flex;
+  justify-content: center;
+}
+
+.dec_qty {
+  height: 40px;
+  width: 40px;
+  background-color: orange;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.inc_qty {
+  height: 40px;
+  width: 40px;
+  background-color: orange;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.qty {
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+}
+
+.cart-btn {
+  margin-left: 10px;
+}
